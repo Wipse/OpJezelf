@@ -1,0 +1,28 @@
+<h2 class="ml-5 mt-5 italic">Jouw Schatting:</h2>
+<form [formGroup]="form" class="ml-5 mt-1 flex flex-col w-4/6" [ngClass]="{'vibrate': showVibration}"> 
+    <p class="absolute text-xl pl-6 mt-3"> € </p>
+    <input formControlName="name" 
+           class="border-4 rounded-xl border-primary mb-1 px-10 py-2 text-xl" 
+           type="number" 
+           placeholder="1.000">
+</form>
+<p class="ml-5 text-primary font-bold" [ngClass]="{'hidden': !isHigher}"> Helaas, het bedrag is hoger! </p> 
+<p class="ml-5 text-primary font-bold" [ngClass]="{'hidden': !isLower}"> Fout, het bedrag is lager! </p>
+<button (click)="getInputData1()" 
+        class="ml-5 rounded-xl bg-primary font-bold text-white mb-5 py-3 mt-5 px-10 duration-150 text-xl active:bg-red-400" 
+        type="submit"
+        [ngClass]="{'hidden': isCloseEnough}"> 
+    Check <i class="fa-solid fa-arrow-right"></i> 
+</button>
+
+<div class="ml-5 mt-5 duration-150" [ngClass]="{'show': isCloseEnough, 'hidden': !isCloseEnough}" id="output">
+    <p> Goed gedaan! Je zat in de buurt van het goede antwoord! </p>
+    <h2 class="mt-2 italic">Antwoord:</h2>
+    <div class="mt-1 w-4/6 mb-20">
+        <p class="border-4 rounded-xl border-green-600 mb-8 px-6 py-2 text-xl"> € {{correctAnswer}} </p>
+        <a class="rounded-xl bg-primary font-bold text-white mb-5 py-3 px-10 duration-150 text-xl active:bg-red-400"> 
+            Volgende <i class="fa-solid fa-arrow-right"></i> 
+        </a>
+    </div>
+</div>
+

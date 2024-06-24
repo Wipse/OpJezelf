@@ -1,0 +1,11 @@
+.transition-transform {
+    transition: transform 0.3s ease-in-out;
+}
+
+.transform-none {
+    transform: none;
+}
+
+.translate-x-full {
+    transform: translateX(100%);
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Monsterat';
+    src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+*{
+    font-family: "Monsterat", sans-serif;
+}

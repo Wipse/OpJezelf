@@ -1,0 +1,18 @@
+<div class="sticky top-0 z-50">
+    
+    <!-- Header -->
+    <div class="bg-white px-5 flex py-3 z-40"> 
+        <img class="h-8" src="assets/images/logo.png" alt="logo">
+        <i class="fa-solid fa-bars text-3xl ml-auto" (click)="toggleSidebar()"></i>
+    </div>
+
+    <!-- Sidebar/Menu -->
+    <div class="min-h-screen w-3/4 absolute right-0 z-50 bg-primary transition-transform duration-300" [class.transform-none]="isSidebarVisible" [class.translate-x-full]="!isSidebarVisible"> 
+        <div class="mt-40 w-full text-center">
+            <a href="#home" class="block ml-auto py-3 font-bold px-12 pb-2 border-b-white text-2xl text-white border-b-2">Home</a>
+            <a href="#opdrachten" class="block ml-auto py-3 font-bold px-12 pb-2 border-b-white text-2xl text-white border-b-2">Opdrachten</a>
+            <a href="#meer-info" class="block ml-auto py-3 font-bold px-12 pb-2 border-b-white text-2xl text-white border-b-2">Info</a>
+        </div>
+    </div>
+
+</div>
