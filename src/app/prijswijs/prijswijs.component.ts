@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-fund-b',
   standalone: true,
   imports: [],
-  templateUrl: './fund-b.component.html',
-  styleUrl: './fund-b.component.css'
+  templateUrl: './prijswijs.component.html',
+  styleUrl: './prijswijs.component.css'
 })
 export class FundBComponent {
 

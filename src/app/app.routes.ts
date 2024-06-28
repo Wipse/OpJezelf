@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { HomeComponent } from './home/home.component';
 import { KwartjeComponent } from './kwartje/kwartje.component';
-import { FundBComponent } from './fund-b/fund-b.component'; 
+import { FundBComponent } from './prijswijs/prijswijs.component'; 
 import { PWOpdrachtComponent } from './pw-opdracht/pw-opdracht.component';
 
 export const routes: Routes = [

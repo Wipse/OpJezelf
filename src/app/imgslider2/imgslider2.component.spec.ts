@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FundBComponent } from './fund-b.component';
+import { Slider2Component } from './imgslider2.component';
 
-describe('FundBComponent', () => {
-  let component: FundBComponent;
-  let fixture: ComponentFixture<FundBComponent>;
+describe('Slider2Component', () => {
+  let component: Slider2Component;
+  let fixture: ComponentFixture<Slider2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FundBComponent]
+      imports: [Slider2Component]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(FundBComponent);
+    fixture = TestBed.createComponent(Slider2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

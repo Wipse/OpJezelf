@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-kwartje',
   standalone: true,
   imports: [],
-  templateUrl: './kwartje.component.html',
-  styleUrl: './kwartje.component.css'
+  templateUrl: './valthetkwartje.component.html',
+  styleUrl: './valthetkwartje.component.css'
 })
 export class KwartjeComponent {
 

@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-slider',
   standalone: true,
   imports: [],
-  templateUrl: './slider.component.html',
-  styleUrl: './slider.component.css'
+  templateUrl: './imgslider.component.html',
+  styleUrl: './imgslider.component.css'
 })
 export class SliderComponent {
   currentIndex = 0;

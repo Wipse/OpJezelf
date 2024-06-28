@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { SliderComponent } from '../slider/slider.component';
+import { SliderComponent } from '../imgslider/imgslider.component';
 import { InputfieldComponent} from '../inputfield/inputfield.component';
-import { Slider2Component } from '../slider2/slider2.component';
+import { Slider2Component } from '../imgslider2/imgslider2.component';
 
 @Component({
   selector: 'app-pw-opdracht',
